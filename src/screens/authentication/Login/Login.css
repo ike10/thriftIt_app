@@ -3,16 +3,15 @@
 /* mobile responsive screen */
 
 /* @media only screen and(max-width:800px){ */
-    .App{
-        background-color: #ffffff;
+    .page{
   margin: 0px;
   overflow-x: hidden;
-  
+  height: 100vh;
   width: 100vw;
   display:flex;
   flex-direction:column;
   color:#000000;
- 
+  padding-top:40px;
     }
     .header{
         width: 100%;
@@ -34,15 +33,15 @@
 
         color: #000000;
     }
-    .form{
+    .login-form{
     display:flex;
     flex-direction:column;
     justify-content: center;
     align-items:center;
 }
-    .form input{
+    .login-form input{
       
-        width: 360px;
+        width: 340px;
         height: 48px;
         margin-top:27px;
         border: none;
@@ -50,7 +49,7 @@
         border-radius: 10px;
         padding-left:22px;
     }
-    .normal-button{
+    .login-button{
         width: 360px;
         height: 60px;
        display:flex;
@@ -62,7 +61,7 @@
         border-radius: 10px;
         margin-top:75px;
     }
-    .normal-button p{
+    .login-button p{
         font-family: Montserrat;
         font-style: normal;
         font-weight: normal;
@@ -73,7 +72,7 @@
         text-align: center;
         color: #FFFFFF;
     }
-    .bordered-button{
+    .google-button{
         width: 360px;
         height: 60px;
         color:#000000;
@@ -88,7 +87,7 @@
        margin-top:15px;
     }
 
-     .bordered-button p{
+     .google-button p{
         font-family: Montserrat;
         font-style: normal;
         font-weight: normal;
