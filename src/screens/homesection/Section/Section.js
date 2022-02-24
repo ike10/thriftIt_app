@@ -1,10 +1,10 @@
 import React from 'react';
 
-import './Home.css'
+import './Section.css'
 import ShoeImage from '../../../../src/assets/images/shoes.png'
 
 
-function Home() {
+function Section() {
 
 
 
@@ -14,51 +14,22 @@ function Home() {
           <div className="page">
           
             <div className="header">
-                <h1>Discover</h1>
+                <h1>Men's Wear</h1>
             </div>
-            <p className="welcome-text"> Find the best deals and prices</p>
-           <div className="category-container">
-               <div className="category-card">
-                   <p>Men's Wear</p>
-               </div>
-                <div className="category-card">
-                   <p>Men's Wear</p>
-               </div>
-                <div className="category-card">
-                   <p>Men's Wear</p>
-               </div>
-                
-               
-           </div>
+            <p className="welcome-text"> Find the best deals and prices on men's clothing</p>
+           
         {/* product container */}
-           <div className="product-container">
-               <div className="product-container-header">
-                <h1>Popular Deals</h1>
-                <p>View All</p>
+           <div className="product-section">
+               <div className="product-section-header">
+                <h1>All Items</h1>
+                <p></p>
                </div>
 
-               <div className="product-card-container">
+               <div className="product-card-section">
                    {/* product card */}
                     <div className="product-card">
-                        <img  
-                         alt="product-card"   
-                             className="product-card-image"
-                            src={ShoeImage}
-                             />
-                        <div >
-                            <p className="product-card-title">Nike SNeaker</p>
-                             <p className="product-card-size">XL</p>
-                        </div>
-                        <p className="product-card-username">JohnDoe56</p>
-                        <div >
-                            <p className="product-card-brand">Nike</p>
-                            <p className="product-card-price">N5000</p>
-                        </div>
-                    </div>
-                    {/* product card */}
-                    <div className="product-card">
-                        <img
-                         alt="product-card"     
+                        <img   
+                        alt="product-card" 
                              className="product-card-image"
                             src={ShoeImage}
                              />
@@ -76,6 +47,75 @@ function Home() {
                     <div className="product-card">
                         <img  
                          alt="product-card"   
+                             className="product-card-image"
+                            src={ShoeImage}
+                             />
+                        <div >
+                            <p className="product-card-title">Nike SNeaker</p>
+                             <p className="product-card-size">XL</p>
+                        </div>
+                        <p className="product-card-username">JohnDoe56</p>
+                        <div >
+                            <p className="product-card-brand">Nike</p>
+                            <p className="product-card-price">N5000</p>
+                        </div>
+                    </div>
+                    {/* product card */}
+                    <div className="product-card">
+                        <img    
+                         alt="product-card" 
+                             className="product-card-image"
+                            src={ShoeImage}
+                             />
+                        <div >
+                            <p className="product-card-title">Nike SNeaker</p>
+                             <p className="product-card-size">XL</p>
+                        </div>
+                        <p className="product-card-username">JohnDoe56</p>
+                        <div >
+                            <p className="product-card-brand">Nike</p>
+                            <p className="product-card-price">N5000</p>
+                        </div>
+                    </div>
+
+                    {/* product card */}
+                    <div className="product-card">
+                        <img    
+                         alt="product-card" 
+                             className="product-card-image"
+                            src={ShoeImage}
+                             />
+                        <div >
+                            <p className="product-card-title">Nike SNeaker</p>
+                             <p className="product-card-size">XL</p>
+                        </div>
+                        <p className="product-card-username">JohnDoe56</p>
+                        <div >
+                            <p className="product-card-brand">Nike</p>
+                            <p className="product-card-price">N5000</p>
+                        </div>
+                    </div>
+                    {/* product card */}
+                    <div className="product-card">
+                        <img 
+                         alt="product-card"    
+                             className="product-card-image"
+                            src={ShoeImage}
+                             />
+                        <div >
+                            <p className="product-card-title">Nike SNeaker</p>
+                             <p className="product-card-size">XL</p>
+                        </div>
+                        <p className="product-card-username">JohnDoe56</p>
+                        <div >
+                            <p className="product-card-brand">Nike</p>
+                            <p className="product-card-price">N5000</p>
+                        </div>
+                    </div>
+                    {/* product card */}
+                    <div className="product-card">
+                        <img    
+                         alt="product-card" 
                              className="product-card-image"
                             src={ShoeImage}
                              />
@@ -95,138 +135,11 @@ function Home() {
            {/* end of product container */}
               
 
-                     {/* product container */}
-           <div className="product-container">
-               <div className="product-container-header">
-                <h1>Christmas Deals</h1>
-                <p>View All</p>
-               </div>
-
-               <div className="product-card-container">
-                   {/* product card */}
-                    <div className="product-card">
-                        <img  
-                         alt="product-card"   
-                             className="product-card-image"
-                            src={ShoeImage}
-                             />
-                        <div >
-                            <p className="product-card-title">Nike SNeaker</p>
-                             <p className="product-card-size">XL</p>
-                        </div>
-                        <p className="product-card-username">JohnDoe56</p>
-                        <div >
-                            <p className="product-card-brand">Nike</p>
-                            <p className="product-card-price">N5000</p>
-                        </div>
-                    </div>
-                    {/* product card */}
-                    <div className="product-card">
-                        <img 
-                         alt="product-card"    
-                             className="product-card-image"
-                            src={ShoeImage}
-                             />
-                        <div >
-                            <p className="product-card-title">Nike SNeaker</p>
-                             <p className="product-card-size">XL</p>
-                        </div>
-                        <p className="product-card-username">JohnDoe56</p>
-                        <div >
-                            <p className="product-card-brand">Nike</p>
-                            <p className="product-card-price">N5000</p>
-                        </div>
-                    </div>
-                    {/* product card */}
-                    <div className="product-card">
-                        <img 
-                         alt="product-card"    
-                             className="product-card-image"
-                            src={ShoeImage}
-                             />
-                        <div >
-                            <p className="product-card-title">Nike SNeaker</p>
-                             <p className="product-card-size">XL</p>
-                        </div>
-                        <p className="product-card-username">JohnDoe56</p>
-                        <div >
-                            <p className="product-card-brand">Nike</p>
-                            <p className="product-card-price">N5000</p>
-                        </div>
-                    </div>
-               </div>
-               
-           </div>
-           {/* end of product container */}
-
-                   {/* product container */}
-           <div className="product-container">
-               <div className="product-container-header">
-                <h1>Discounted Deals</h1>
-                <p>View All</p>
-               </div>
-
-               <div className="product-card-container">
-                   {/* product card */}
-                    <div className="product-card">
-                        <img    
-                         alt="product-card" 
-                             className="product-card-image"
-                            src={ShoeImage}
-                             />
-                        <div >
-                            <p className="product-card-title">Nike SNeaker</p>
-                             <p className="product-card-size">XL</p>
-                        </div>
-                        <p className="product-card-username">JohnDoe56</p>
-                        <div >
-                            <p className="product-card-brand">Nike</p>
-                            <p className="product-card-price">N5000</p>
-                        </div>
-                    </div>
-                    {/* product card */}
-                    <div className="product-card">
-                        <img   
-                         alt="product-card"  
-                             className="product-card-image"
-                            src={ShoeImage}
-                             />
-                        <div >
-                            <p className="product-card-title">Nike SNeaker</p>
-                             <p className="product-card-size">XL</p>
-                        </div>
-                        <p className="product-card-username">JohnDoe56</p>
-                        <div >
-                            <p className="product-card-brand">Nike</p>
-                            <p className="product-card-price">N5000</p>
-                        </div>
-                    </div>
-                    {/* product card */}
-                    <div className="product-card">
-                        <img   
-                         alt="product-card"  
-                             className="product-card-image"
-                            src={ShoeImage}
-                             />
-                        <div >
-                            <p className="product-card-title">Nike SNeaker</p>
-                             <p className="product-card-size">XL</p>
-                        </div>
-                        <p className="product-card-username">JohnDoe56</p>
-                        <div >
-                            <p className="product-card-brand">Nike</p>
-                            <p className="product-card-price">N5000</p>
-                        </div>
-                    </div>
-               </div>
-               
-           </div>
-           {/* end of product container */}
-         
+           
           </div>
    
     
   );
 }
 
-export default Home;
+export default Section;

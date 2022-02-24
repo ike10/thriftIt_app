@@ -29,7 +29,7 @@ function VerifyEmail() {
                 
                 <div className="form-message">
                     <p>Didn't receive the mail?</p>
-                    <a><p>Resend</p></a>
+                    <a href="/"><p>Resend</p></a>
                 </div>
             </div>
             

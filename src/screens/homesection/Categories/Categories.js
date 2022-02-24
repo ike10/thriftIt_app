@@ -1,10 +1,10 @@
 import React from 'react';
 
-import './Home.css'
+import './Categories.css'
 import ShoeImage from '../../../../src/assets/images/shoes.png'
 
 
-function Home() {
+function Categories() {
 
 
 
@@ -229,4 +229,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Categories;

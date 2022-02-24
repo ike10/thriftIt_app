@@ -35,7 +35,7 @@ function Login() {
                 </div>
                 <div className="form-message">
                     <p>Don't have an account?</p>
-                    <a><p>Sign here</p></a>
+                    <a href="/"><p>Sign here</p></a>
                 </div>
             </div>
             
