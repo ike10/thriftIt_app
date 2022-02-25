@@ -7,7 +7,7 @@
         background-color: #ffffff;
   margin: 0px;
   overflow-x: hidden;
-  
+  padding-top: 0;
   width: 100vw;
   display:flex;
   flex-direction:column;

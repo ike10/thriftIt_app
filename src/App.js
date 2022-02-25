@@ -6,6 +6,8 @@ import CreateAccount from './screens/authentication/CreateAccount/CreateAccount'
 import VerifyEmail from './screens/authentication/VerifyEmail/VerifyEmail';
 import Home from './screens/homesection/Home/Home';
 import Section from './screens/homesection/Section/Section';
+import Product from './screens/homesection/Product/Product';
+import Cart from './screens/homesection/Cart/Cart';
 
 function App() {
 
@@ -22,6 +24,8 @@ function App() {
         <Route path="/verifyemail" element={<VerifyEmail />} />
         <Route path="/home" element={<Home />} />
          <Route path="/section" element={<Section />} />
+         <Route path="/product" element={<Product />} />
+         <Route path="/cart" element={<Cart />}/>
       </Routes>
     </div>
    

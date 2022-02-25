@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './VerifyEmail.css';
 
 
@@ -23,9 +24,9 @@ function VerifyEmail() {
                 />
                
 
-                <div className="normal-button">
+                <Link to="/"><div className="normal-button">
                     <p>Verify</p>
-                </div>
+                </div></Link>
                 
                 <div className="form-message">
                     <p>Didn't receive the mail?</p>

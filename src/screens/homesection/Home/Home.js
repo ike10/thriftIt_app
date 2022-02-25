@@ -2,6 +2,7 @@ import React from 'react';
 
 import './Home.css'
 import ShoeImage from '../../../../src/assets/images/shoes.png'
+import { Link } from 'react-router-dom';
 
 
 function Home() {
@@ -11,7 +12,7 @@ function Home() {
 
   return (
    
-          <div className="page">
+          <div className="home-page">
           
             <div className="header">
                 <h1>Discover</h1>
@@ -39,14 +40,15 @@ function Home() {
 
                <div className="product-card-container">
                    {/* product card */}
-                    <div className="product-card">
+                   
+                   <Link to="/product"><div className="product-card">
                         <img  
                          alt="product-card"   
                              className="product-card-image"
                             src={ShoeImage}
                              />
                         <div >
-                            <p className="product-card-title">Nike SNeaker</p>
+                            <p className="product-card-title">Nike Sneaker</p>
                              <p className="product-card-size">XL</p>
                         </div>
                         <p className="product-card-username">JohnDoe56</p>
@@ -54,33 +56,18 @@ function Home() {
                             <p className="product-card-brand">Nike</p>
                             <p className="product-card-price">N5000</p>
                         </div>
-                    </div>
+                    </div></Link>
+                    {/* end of product card */}
                     {/* product card */}
-                    <div className="product-card">
-                        <img
-                         alt="product-card"     
-                             className="product-card-image"
-                            src={ShoeImage}
-                             />
-                        <div >
-                            <p className="product-card-title">Nike SNeaker</p>
-                             <p className="product-card-size">XL</p>
-                        </div>
-                        <p className="product-card-username">JohnDoe56</p>
-                        <div >
-                            <p className="product-card-brand">Nike</p>
-                            <p className="product-card-price">N5000</p>
-                        </div>
-                    </div>
-                    {/* product card */}
-                    <div className="product-card">
+                   
+                   <Link to="/product"><div className="product-card">
                         <img  
                          alt="product-card"   
                              className="product-card-image"
                             src={ShoeImage}
                              />
                         <div >
-                            <p className="product-card-title">Nike SNeaker</p>
+                            <p className="product-card-title">Nike Sneaker</p>
                              <p className="product-card-size">XL</p>
                         </div>
                         <p className="product-card-username">JohnDoe56</p>
@@ -88,7 +75,27 @@ function Home() {
                             <p className="product-card-brand">Nike</p>
                             <p className="product-card-price">N5000</p>
                         </div>
-                    </div>
+                    </div></Link>
+                    {/* end of product card */}
+                    {/* product card */}
+                   
+                   <Link to="/product"><div className="product-card">
+                        <img  
+                         alt="product-card"   
+                             className="product-card-image"
+                            src={ShoeImage}
+                             />
+                        <div >
+                            <p className="product-card-title">Nike Sneaker</p>
+                             <p className="product-card-size">XL</p>
+                        </div>
+                        <p className="product-card-username">JohnDoe56</p>
+                        <div >
+                            <p className="product-card-brand">Nike</p>
+                            <p className="product-card-price">N5000</p>
+                        </div>
+                    </div></Link>
+                    {/* end of product card */}
                </div>
                
            </div>
@@ -104,14 +111,15 @@ function Home() {
 
                <div className="product-card-container">
                    {/* product card */}
-                    <div className="product-card">
+                   
+                   <Link to="/product"><div className="product-card">
                         <img  
                          alt="product-card"   
                              className="product-card-image"
                             src={ShoeImage}
                              />
                         <div >
-                            <p className="product-card-title">Nike SNeaker</p>
+                            <p className="product-card-title">Nike Sneaker</p>
                              <p className="product-card-size">XL</p>
                         </div>
                         <p className="product-card-username">JohnDoe56</p>
@@ -119,16 +127,18 @@ function Home() {
                             <p className="product-card-brand">Nike</p>
                             <p className="product-card-price">N5000</p>
                         </div>
-                    </div>
+                    </div></Link>
+                    {/* end of product card */}
                     {/* product card */}
-                    <div className="product-card">
-                        <img 
-                         alt="product-card"    
+                   
+                   <Link to="/product"><div className="product-card">
+                        <img  
+                         alt="product-card"   
                              className="product-card-image"
                             src={ShoeImage}
                              />
                         <div >
-                            <p className="product-card-title">Nike SNeaker</p>
+                            <p className="product-card-title">Nike Sneaker</p>
                              <p className="product-card-size">XL</p>
                         </div>
                         <p className="product-card-username">JohnDoe56</p>
@@ -136,16 +146,18 @@ function Home() {
                             <p className="product-card-brand">Nike</p>
                             <p className="product-card-price">N5000</p>
                         </div>
-                    </div>
+                    </div></Link>
+                    {/* end of product card */}
                     {/* product card */}
-                    <div className="product-card">
-                        <img 
-                         alt="product-card"    
+                   
+                   <Link to="/product"><div className="product-card">
+                        <img  
+                         alt="product-card"   
                              className="product-card-image"
                             src={ShoeImage}
                              />
                         <div >
-                            <p className="product-card-title">Nike SNeaker</p>
+                            <p className="product-card-title">Nike Sneaker</p>
                              <p className="product-card-size">XL</p>
                         </div>
                         <p className="product-card-username">JohnDoe56</p>
@@ -153,7 +165,8 @@ function Home() {
                             <p className="product-card-brand">Nike</p>
                             <p className="product-card-price">N5000</p>
                         </div>
-                    </div>
+                    </div></Link>
+                    {/* end of product card */}
                </div>
                
            </div>
@@ -168,14 +181,15 @@ function Home() {
 
                <div className="product-card-container">
                    {/* product card */}
-                    <div className="product-card">
-                        <img    
-                         alt="product-card" 
+                   
+                   <Link to="/product"><div className="product-card">
+                        <img  
+                         alt="product-card"   
                              className="product-card-image"
                             src={ShoeImage}
                              />
                         <div >
-                            <p className="product-card-title">Nike SNeaker</p>
+                            <p className="product-card-title">Nike Sneaker</p>
                              <p className="product-card-size">XL</p>
                         </div>
                         <p className="product-card-username">JohnDoe56</p>
@@ -183,16 +197,37 @@ function Home() {
                             <p className="product-card-brand">Nike</p>
                             <p className="product-card-price">N5000</p>
                         </div>
-                    </div>
+                    </div></Link>
+                    {/* end of product card */}
+                   {/* product card */}
+                   
+                   <Link to="/product"><div className="product-card">
+                        <img  
+                         alt="product-card"   
+                             className="product-card-image"
+                            src={ShoeImage}
+                             />
+                        <div >
+                            <p className="product-card-title">Nike Sneaker</p>
+                             <p className="product-card-size">XL</p>
+                        </div>
+                        <p className="product-card-username">JohnDoe56</p>
+                        <div >
+                            <p className="product-card-brand">Nike</p>
+                            <p className="product-card-price">N5000</p>
+                        </div>
+                    </div></Link>
+                    {/* end of product card */}
                     {/* product card */}
-                    <div className="product-card">
-                        <img   
-                         alt="product-card"  
+                   
+                   <Link to="/product"><div className="product-card">
+                        <img  
+                         alt="product-card"   
                              className="product-card-image"
                             src={ShoeImage}
                              />
                         <div >
-                            <p className="product-card-title">Nike SNeaker</p>
+                            <p className="product-card-title">Nike Sneaker</p>
                              <p className="product-card-size">XL</p>
                         </div>
                         <p className="product-card-username">JohnDoe56</p>
@@ -200,24 +235,8 @@ function Home() {
                             <p className="product-card-brand">Nike</p>
                             <p className="product-card-price">N5000</p>
                         </div>
-                    </div>
-                    {/* product card */}
-                    <div className="product-card">
-                        <img   
-                         alt="product-card"  
-                             className="product-card-image"
-                            src={ShoeImage}
-                             />
-                        <div >
-                            <p className="product-card-title">Nike SNeaker</p>
-                             <p className="product-card-size">XL</p>
-                        </div>
-                        <p className="product-card-username">JohnDoe56</p>
-                        <div >
-                            <p className="product-card-brand">Nike</p>
-                            <p className="product-card-price">N5000</p>
-                        </div>
-                    </div>
+                    </div></Link>
+                    {/* end of product card */}
                </div>
                
            </div>

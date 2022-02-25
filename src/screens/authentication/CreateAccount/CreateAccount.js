@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './CreateAccount.css'
 
@@ -26,16 +27,20 @@ function CreateAccount() {
                 placeholder="Password"
                 type="password"
                 />
+                <input className="form-input"
+                placeholder="Confirm Password"
+                type="password"
+                />
 
-                <div className="normal-button">
-                    <p>Sign In</p>
-                </div>
-                <div className="bordered-button">
-                    <p>Sign in With Google</p>
+                <Link to="/verifyemail"><div className="signup-button">
+                    <p>Sign Up</p>
+                </div></Link>
+                <div className="signup-google-button">
+                    <p>SIgn Up With Google</p>
                 </div>
                 <div className="form-message">
-                    <p>Don't have an account?</p>
-                    <a href="/"><p>Sign here</p></a>
+                    <p>Already have an account?</p>
+                    <Link to="/"><a href="/"><p>Sign here</p></a></Link>
                 </div>
             </div>
             

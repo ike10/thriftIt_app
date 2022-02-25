@@ -12,10 +12,11 @@
   display:flex;
   flex-direction:column;
   color:#000000;
-  padding-top:40px;
+  
     }
     .header{
         width: 100%;
+        margin-top: 120px;
         display: flex;
         padding-left:34px;
     }
@@ -50,7 +51,7 @@
         border-radius: 10px;
         padding-left:22px;
     }
-    .normal-button{
+    .signup-button{
         width: 360px;
         height: 60px;
        display:flex;
@@ -60,9 +61,9 @@
         color:#ffffff;
         background: #161310;
         border-radius: 10px;
-        margin-top:75px;
+        margin-top:150px;
     }
-    .normal-button p{
+    .signup-button p{
         font-family: Montserrat;
         font-style: normal;
         font-weight: normal;
@@ -73,7 +74,7 @@
         text-align: center;
         color: #FFFFFF;
     }
-    .bordered-button{
+    .signup-google-button{
         width: 360px;
         height: 60px;
         color:#000000;
@@ -88,7 +89,7 @@
        margin-top:15px;
     }
 
-     .bordered-button p{
+     .signup-google-button p{
         font-family: Montserrat;
         font-style: normal;
         font-weight: normal;
